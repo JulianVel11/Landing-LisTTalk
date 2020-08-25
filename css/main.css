@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat";
+    scroll-behavior: smooth;
+}
+
+/*Header*/
+
+/*Navbar*/
+header .bg-listtalk{
+    background-color: #3b3b3b;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
+
+header .bg-listtalk .navbar-collapse ul{
+    margin: 0 auto;
+    align-content: center;
+}
+
+header .navbar-collapse ul li{
+    padding: 0px 30px;
+}
+
+header .navbar-light .navbar-toggler{
+    outline: none;
+}
+
+header .navbar-collapse .navbar-nav .nav-item a{
+    margin-top: 15px;
+    color: white;
+}
+
+header .navbar-collapse .navbar-nav .nav-item a:hover {
+    color: #02a4e4;
+}
+
+header .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #ffffff;
+}
+
+header .navbar-collapse a img{
+    height: 50px;
+    max-width: 100px;
+    margin: 0px 30px;
+}
+/*Navbar*/
+
+/*Carousel*/
+header .carousel-item h5{
+    margin-bottom: 40px;
+    font-size: 30px;
+
+}
+
+header .carousel-item h5 b{
+    color: #02a4e4;
+}
+
+header .carousel-indicators li{
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+}
+
+header .carousel-control-prev h2{
+    margin-left: 170%;
+    color: #02a4e4;
+    font-size: 25vh;
+}
+/*
+header .carousel-control-next img{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    display: flex-end;
+}
+
+header .carousel-control-prev img{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    transform: rotate(45deg);
+}
+*/
+header .carousel-control-next h2{
+    color: #ffffff;
+    font-size: 25vh;
+    margin-right: 170%;
+}
+/*Carousel*/
+/*Header*/
+
+/*Nosotros*/
+#nosotros{
+    background: url(../imagen/Manosnosotros.jpg);
+    background-position-x:center ;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding: 40px 0px;
+}
+
+#nosotros .jumbotron{
+    width: 70%;
+    margin: auto;
+    background-color: #02a4e486;
+    text-align: center;
+}
+
+#nosotros .jumbotron h1{
+    font-weight: 600;
+}
+
+#nosotros .jumbotron p{
+    text-align: justify;
+    font-weight: 400;
+    color: #000000;
+}
+
+#nosotros .jumbotron a{
+    background-color: #000000;
+}
+
+#nosotros .jumbotron .btn-primary{
+    margin-top: 20px;
+    color: #fff;
+    background-color: #000000;
+    border-color: transparent;
+    padding: 10px 20px;
+}
+/*Nosotros*/
+
+/*Servicios*/
+#servicios{
+    background:url(../imagen/lawrence.jpg);
+    background-position-x: center;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    padding: 4% 8%;
+}
+
+#servicios .card{
+    margin: 1% 15px;
+    display: inline-block;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#servicios .card .card-body .card-title{
+    color: #02a4e4;
+}
+
+#servicios .mb-3{
+    display: inline-block;
+    margin: 10px;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+#servicios .card-body .card-title{
+    text-align: center;
+}
+
+#servicios .card-body .card-text{
+    text-align: justify;
+}
+/*Servicios*/
+
+/*Footer*/
+.bg-dark .bg-success{
+    background-color: #02a4e4!important;
+}
+
+footer .container .row .col-md-5 h6{
+    color: #ffffff;
+}
+
+footer .container .row .col-md-3 h6{
+    color: #ffffff;
+}
+
+footer .container .row .col-md-3 p{
+    color: #ffffff;
+    text-align: center;
+}
+
+footer .footer-terms a{
+    padding: 0 10px;
+    margin: 0 auto;
+    color: #ffffff;
+    display: inline-block;
+    text-decoration-line: none;
+}
+footer .footer-terms a:hover{
+    color: #02a4e4;
+}
+/*Footer*/
+
+/*Modales-Login*/
+#modal-login .modal-header{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+#modal-login .modal-dialog .modal-content{
+    border-radius: 30px;
+}
+
+#modal-login .modal-dialog .modal-content {
+    background-color: #242121;
+    color: #ffffff;
+}
+
+#modal-login .modal-header .close{
+
+    color: #ffffff;
+    opacity: 80%;
+}
+
+#modal-login .modal-header .modal-image{
+    width: 150px;
+    margin-left: 35%;
+    display: inline-block;
+}
+
+#modal-login .modal-body .modal-title{
+    text-align: center;
+    font-weight: 600;
+}
+
+#modal-login .modal-body .form-group label{
+    color: #ffffff;
+    font-weight: 500;
+}
+
+#modal-login .modal-body .form-group .form-control{
+    color: #ffffff;
+    padding: 0;
+}
+
+#modal-login .modal-body .form-group{
+    margin-top: 20px;
+}
+
+#modal-login .modal-body .btn-primary{
+    margin-top: 20px;
+    margin-left: 40%;
+    background-color: #02a4e4;
+    border-color: transparent;
+    color: #000000;
+    font-weight: 500;
+}
+/*Modales-login*/
+
+/*Modales-Botón*/
+.modal-content .modal-header{
+    background-color: #242121;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.modal-header .modal-image{
+    width: 150px;
+    margin-left: 35%;
+    display: inline-block;
+}
+
+.modal-header .close{
+    outline: none;
+    color: #ffffff;
+    opacity: 80%;
+}
+
+.modal-header .close:hover{
+    color: #ffffff;
+}
+
+.modal-body .modal-title{
+    margin-top: 10px;
+    color: #02a4e4;
+    text-align: center;
+    font-weight: 600;
+}
+
+.modal-body form{
+    margin-top: 20px;
+}
+
+.modal-dialog .modal-content{
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 30px;
+}
+
+.modal-body .form-group label{
+    color: #000000;
+    font-weight: 500;
+}
+
+.modal-body .btn-primary{
+    margin-left: 38%;
+    background-color: #000000;
+    border-color: transparent;
+}
+
+.modal-body .form-group .form-control{
+    padding: 0;
+    color: #02a4e4;
+    border-radius: 0px;
+    background-color: #ffffff00;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #02a4e4;
+}
+
+.modal-body .form-group .form-check-label{
+    color: #000000;
+}
+/*Modales-Botón*/
+
+
+/*Responsive*/
+@media screen and (max-width:1024px) and (min-width:743px){
+    header .carousel-control-next h2{
+        color: #ffffff;
+        font-size: 7vh;
+        margin-right: 170%;
+    }
+    header .carousel-control-prev h2{
+        margin-left: 170%;
+        color: #02a4e4;
+        font-size: 7vh;
+    }
+    header .carousel-indicators li{
+        border-radius: 50%;
+        height: 10px;
+        width: 10px;
+    }
+}
+
+@media screen and (max-width:742px) and (min-width:280px){
+    header .carousel-control-next h2{
+        color: #ffffff;
+        font-size: 5vh;
+        margin-right: 170%;
+    }
+    header .carousel-indicators li{
+        border-radius: 50%;
+        height: 10px;
+        width: 10px;
+    }
+    header .carousel-control-prev h2{
+        margin-left: 170%;
+        color: #02a4e4;
+        font-size: 5vh;
+    }
+    #nosotros .jumbotron h1{
+        font-weight: 600;
+        font-size: 25px;
+    }
+    #modal-login .modal-header .modal-image{
+        width: 150px;
+        margin-left: 30%;
+        display: inline-block;
+    }
+    .modal-header .modal-image{
+        width: 150px;
+        margin-left: 30%;
+        display: inline-block;
+    }
+}
+/*Responsive*/
